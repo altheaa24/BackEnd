@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['https://peitel-backend-xj25.onrender.com', 'peitel-backend-xj25.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://backend-1-8ith.onrender.com",
+    "https://peitel-backend-xj25.onrender.com",
 ]
 # Application definition
 
