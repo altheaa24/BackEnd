@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-vvsy!n%)+9iit&ms$addc01r%qx%z!+r=o_%!2o6x3c3r*)6-e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://peitel-backend-xj25.onrender.com', 'peitel-backend-xj25.onrender.com']
+ALLOWED_HOSTS = ['https://peitel-backend-xj25.onrender.com', 
+                 'peitel-backend-xj25.onrender.com',
+                '.onrender.com',]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://peitel-backend-xj25.onrender.com",
